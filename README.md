@@ -63,17 +63,19 @@ Y= A⊕B
 
 
 **PROGRAM**
+ Developed by:A.AFIFA
+ RegisterNumber: 212223040008
+module Booleanexpressionmin(a,b,c,d,w,x,y,z,f1,f2); input a,b,c,d,w,x,y,z; output f1,f2; wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u; not(adash,a); not(bdash,b); not(cdash,c); not(ddash,d); not(ydash,y); and(p,bdash,ddash); and(q,adash,b,d); and(r,a,b,cdash); or(f1,p,q,r); and(s,ydash,z); and(t,x,y); and(u,w,y); or(f2,s,t,u); endmodule
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
  
-**Logic symbol & Truthtable**
+ 
 
-**RTL realization Output:** 
+**Output:** 
+![Screenshot 2024-04-02 143754](https://github.com/afifa17112005/study-of-basic-gates/assets/147080931/51f561d9-0625-4027-8f16-3c7a0a602b84)
 
-**RTL**
+
 
 **Result:**
+Thus the study and verify the truth table of logic gates in Quartus II using Verilog programming is successfully completed.
 
 
